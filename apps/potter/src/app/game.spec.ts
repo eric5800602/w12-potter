@@ -24,4 +24,10 @@ describe('Game', () => {
     game.buy(1,2,0,0,0);
     expect(game.total).toBe(290);
   });
+
+  test('Buy every each episode and one more E1.E2.E3', () => {
+    game.buy(2,2,2,1,1);
+    expect(game.total).toBe(645);
+  });
+
 });
