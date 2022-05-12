@@ -1,7 +1,7 @@
 export class Game {
     private _total = 0;
-    buy(book: number) {
-        this._total += book * 100
+    buy(E1: number,E2: number,E3: number,E4: number,E5: number) {
+        this._total += E1 * 100;
     }
 
     get total() {
